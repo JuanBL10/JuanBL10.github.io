@@ -1,57 +1,169 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Tu Nombre | Portafolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Juan Diego Barrantes Loria | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header class="hero">
+    <nav class="nav">
+      <div class="logo">Juan Diego Barrantes Loria</div>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
 
-<header>
-  <h1>Tu Nombre</h1>
-  <p>Estudiante de Ingeniería en Informática</p>
-</header>
+    <div class="hero-content">
+      <p class="tag">Business Informatics Student · UCR</p>
+      <h1>Building practical software, data, and information system solutions.</h1>
+      <p class="subtitle">
+        Advanced student of Business Informatics at the Universidad de Costa Rica,
+        focused on software development, databases, information systems, and problem-solving.
+      </p>
+      <div class="hero-buttons">
+        <a class="btn primary" href="#projects">View Projects</a>
+        <a class="btn secondary" href="#contact">Contact Me</a>
+      </div>
+    </div>
+  </header>
 
-<section>
-  <h2>Sobre mí</h2>
-  <p>
-    Soy estudiante de informática enfocado en desarrollo de software y análisis de datos.
-    Me interesa construir soluciones prácticas utilizando tecnologías modernas.
-  </p>
-</section>
+  <main>
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>
+        I am an advanced Business Informatics student at the Universidad de Costa Rica
+        with solid knowledge of information systems, organizational processes,
+        relational databases, and programming. I adapt well to dynamic environments,
+        enjoy solving problems, and work effectively in team-based projects.
+      </p>
+      <p>
+        I am currently seeking an opportunity where I can apply my technical knowledge,
+        contribute to innovative solutions, and continue growing both personally
+        and professionally.
+      </p>
+    </section>
 
-<section>
-  <h2>Tecnologías</h2>
-  <ul>
-    <li>Python, JavaScript</li>
-    <li>Node.js, Flask</li>
-    <li>SQL Server, PostgreSQL</li>
-    <li>Docker, Kubernetes</li>
-  </ul>
-</section>
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <div class="grid cards">
+        <article class="card">
+          <h3>Programming</h3>
+          <p>Java, Python, HTML, CSS, Bootstrap, C#</p>
+        </article>
+        <article class="card">
+          <h3>Databases & Tools</h3>
+          <p>SQL Server, MySQL, SQL Developer, GitHub, Linux, Windows, LaTeX</p>
+        </article>
+        <article class="card">
+          <h3>Cloud</h3>
+          <p>AWS, Azure</p>
+        </article>
+        <article class="card">
+          <h3>Networking</h3>
+          <p>LAN, WAN, TCP/IP, VLANs, IPv4 configuration, static routing, Cisco Packet Tracer</p>
+        </article>
+        <article class="card">
+          <h3>Languages</h3>
+          <p>Native Spanish, Intermediate English</p>
+        </article>
+        <article class="card">
+          <h3>Soft Skills</h3>
+          <p>Leadership, communication, teamwork, analytical thinking, adaptability, continuous learning</p>
+        </article>
+      </div>
+    </section>
 
-<section>
-  <h2>Proyectos</h2>
+    <section id="projects" class="section">
+      <h2>Academic & Technical Projects</h2>
 
-  <div class="project">
-    <h3>Sistema Académico (EduCRM)</h3>
-    <p>Sistema web para gestión académica centralizada.</p>
-    <a href="#">Ver proyecto</a>
-  </div>
+      <div class="project">
+        <h3>Battleship Game in Java</h3>
+        <p class="project-meta">Programming 1</p>
+        <p>
+          Developed a Battleship game in two stages: first as a console-based application,
+          and later with a graphical interface using Java Swing and AWT components.
+        </p>
+      </div>
 
-  <div class="project">
-    <h3>Pipeline ETL</h3>
-    <p>Automatización de procesamiento de datos con Airflow.</p>
-    <a href="#">Ver proyecto</a>
-  </div>
+      <div class="project">
+        <h3>Student Registration and Enrollment System</h3>
+        <p class="project-meta">Programming 2</p>
+        <p>
+          Built a system to manage student registration, courses, and enrollments based on
+          seat availability and course capacity rules.
+        </p>
+      </div>
 
-</section>
+      <div class="project">
+        <h3>Database Design for Academic Scheduling</h3>
+        <p class="project-meta">Databases</p>
+        <p>
+          Designed relational, logical, and physical database models to manage classrooms,
+          courses, and professor schedules. Implemented the database in SQL Server and documented
+          it with a detailed data dictionary.
+        </p>
+      </div>
 
-<section>
-  <h2>Contacto</h2>
-  <p>Email: tuemail@gmail.com</p>
-  <p>GitHub: github.com/tuusuario</p>
-</section>
+      <div class="project">
+        <h3>Library Management API</h3>
+        <p class="project-meta">I+D Universidad de Costa Rica</p>
+        <p>
+          Developed an API using Laravel to manage a small library database, including CRUD
+          operations for books, users, and loans through structured endpoints.
+        </p>
+      </div>
+    </section>
 
+    <section id="education" class="section">
+      <h2>Education & Certificates</h2>
+      <div class="grid cards">
+        <article class="card">
+          <h3>Bachelor’s Degree in Business Informatics</h3>
+          <p>Universidad de Costa Rica</p>
+          <p>2023 - Current</p>
+        </article>
+        <article class="card">
+          <h3>Introduction to Cybersecurity</h3>
+          <p>Cisco</p>
+          <p>In progress</p>
+        </article>
+        <article class="card">
+          <h3>Responsive Web Design</h3>
+          <p>freeCodeCamp</p>
+          <p>In progress</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Experience Highlights</h2>
+      <ul class="clean-list">
+        <li>Work experience in IT department and I+D at Universidad de Costa Rica.</li>
+        <li>Tutor in Calculus I, Precalculus, and Linear Algebra.</li>
+        <li>Experience collaborating in academic and team-based technical projects.</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <div class="contact-box">
+        <p><strong>Name:</strong> Juan Diego Barrantes Loria</p>
+        <p><strong>Phone:</strong> +506 8606-2318</p>
+        <p><strong>Email:</strong> juan.barrantesloria@gmail.com</p>
+        <p><strong>LinkedIn:</strong> Add your real LinkedIn URL here</p>
+        <p><strong>GitHub:</strong> Add your GitHub URL here</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Juan Diego Barrantes Loria</p>
+  </footer>
 </body>
 </html>
